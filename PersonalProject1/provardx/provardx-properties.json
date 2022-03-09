@@ -1,0 +1,30 @@
+{
+   "provarHome":"C:/Program Files/ProvarVersions/Provar264/",
+   "projectPath":"C:/Users/gaggan.rana/Provar/PersonalWS1/PersonalProject1",
+   "resultsPath":"C:/Users/gaggan.rana/Provar/PersonalWS1/PersonalProject1/ANT/Results",
+   "smtpPath": "",
+   "resultsPathDisposition": "Increment", 
+   "testOutputLevel":"BASIC",
+   "pluginOutputlevel":"WARNING",
+   "stopOnError":false,
+   "lightningMode":true,
+   "connectionRefreshType":"Reload",
+   "metadata":{
+      "metadataLevel":"Reload",
+      "cachePath":"../.provarCaches"
+   },
+   "environment":{
+      "testEnvironment":"",
+      "webBrowser":"Chrome",
+      "webBrowserConfig":"Full Screen",
+      "webBrowserProviderName":"Desktop",
+      "webBrowserDeviceName":"Full Screen"
+   }
+   ,"testCase":[
+    	"/Test Case 2.testcase"  
+	],
+	"connectionOverride":
+	[
+		{"connection": "PersonalOrg", "username":"gagganscratchorg1@provartesting.com"}
+	]
+}

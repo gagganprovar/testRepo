@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PersonalProject1/tests" tests="1" failures="0" skipped="0" hostname="HP-Gaganrana" time="88.209" timestamp="Wed Feb 02 16:20:48 IST 2022">
+	<properties>
+		<property name="testEnvironment" value=""/>
+		<property name="pluginOutputLevel" value="WARNING"/>
+		<property name="projectPath" value="C:/Users/gaggan.rana/Provar/PersonalWS1/PersonalProject1"/>
+		<property name="salesforceMetadataCache" value="../.provarCaches"/>
+		<property name="resultsPathDisposition" value="Increment"/>
+		<property name="testOutputLevel" value="BASIC"/>
+		<property name="webBrowserType" value="Chrome"/>
+		<property name="resultsPath" value="C:/Users/gaggan.rana/Provar/PersonalWS1/PersonalProject1/ANT/Results"/>
+		<property name="webBrowserConfiguration" value="Full Screen"/>
+		<property name="projectCachePath" value="../.provarCaches"/>
+	</properties>
+	<testcase classname="tests/C:\Users\gaggan.rana\Provar\PersonalWS1\PersonalProject1" name="Test Case 2.testcase" time="80.008">
+	</testcase>
+</testsuite>

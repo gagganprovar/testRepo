@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PersonalProject1/tests" tests="1" failures="1" skipped="0" hostname="HP-Gaganrana" time="84.141" timestamp="Wed Feb 02 19:16:39 IST 2022">
+	<properties>
+		<property name="testEnvironment" value=""/>
+		<property name="pluginOutputLevel" value="WARNING"/>
+		<property name="projectPath" value="C:/Users/gaggan.rana/Provar/PersonalWS1/PersonalProject1"/>
+		<property name="salesforceMetadataCache" value="../.provarCaches"/>
+		<property name="resultsPathDisposition" value="Increment"/>
+		<property name="testOutputLevel" value="BASIC"/>
+		<property name="webBrowserType" value="Chrome"/>
+		<property name="resultsPath" value="C:/Users/gaggan.rana/Provar/PersonalWS1/PersonalProject1/ANT/Results"/>
+		<property name="webBrowserConfiguration" value="Full Screen"/>
+		<property name="projectCachePath" value="../.provarCaches"/>
+	</properties>
+	<testcase classname="tests/C:\Users\gaggan.rana\Provar\PersonalWS1\PersonalProject1" name="Test Case 2.testcase" time="77.824">
+		<failure message="Execution failed"><![CDATA[Error doing interaction.  Connection Name: PersonalOrg, cause: [NullPointerException
+Stack Trace:
+java.lang.NullPointerException
+	at com.provar.plugins.forcedotcom.core.support.SfLightningLocatorSupport.getComponentMappingForTheLocator(SfLightningLocatorSupport.java:523)
+	at com.provar.plugins.forcedotcom.core.ui.lightning.SfLightningListViewElementLocatorV40.getWebElements(SfLightningListViewElementLocatorV40.java:108)
+	at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.performInteraction(SeleniumUiHandler.java:2049)
+	at com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performInteraction(SfUiHandler.java:5445)
+	at com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:418)
+	at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:346)
+	at com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:337)
+	at com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:857)
+	at com.provar.plugins.forcedotcom.core.ui.UiDoAction.execute(UiDoAction.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:754)
+	at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:744)
+	at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.access$11(LocalTestExecutionContainerRunner.java:676)
+	at com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1400)
+]]]></failure>
+	</testcase>
+</testsuite>
